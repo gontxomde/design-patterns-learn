@@ -63,8 +63,8 @@ class ChairFactory:
             return MediumChair()
         elif chair_type == 'SmallChair':
             return SmallChair()
-        else:
+        else:[[[]]]
             return None
 
 
-chair = ChairFactory().get_chair('SmallChair')
+chair = ChairFactory().get_chair('')
